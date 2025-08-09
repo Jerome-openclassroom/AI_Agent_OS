@@ -10,13 +10,15 @@ L'objectif est d'illustrer comment, à terme, les **systèmes d'exploitation du 
 
 ```
 .
-├── README.md            ← README en anglais
-├── README_Fr.md         ← Ce fichier (français)
+├── README.md                         ← README en anglais
+├── README_Fr.md                      ← Version française du README
 ├── code/
-│   ├── HelloWorld_AI_Agent.ipynb    ← Première version (Python pur + API OpenAI)
-│   └── AI_Agent_Langchain.ipynb     ← Version modulaire avec LangChain
+│   ├── HelloWorld_AI_Agent.ipynb     ← Première version (Python pur + API OpenAI)
+│   ├── AI_Agent_Langchain.ipynb      ← Version modulaire avec LangChain
+│   └── System_instruction.txt        ← Prompt système durci (spéc XML, règles, few-shots)
 └── screenshot/
-    └── demo.gif          ← Démo animée : création de dossier + création de fichier via prompt
+    └── demo.gif                      ← Démo animée : création de dossier + fichier via prompt
+
 ```
 
 ---
