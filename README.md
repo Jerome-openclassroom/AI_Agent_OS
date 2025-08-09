@@ -10,13 +10,15 @@ At its core, this system showcases how **future operating systems** could be dri
 
 ```
 .
-├── README.md            ← This file (English)
-├── README_Fr.md         ← French version of the README
+├── README.md                         ← This file (English)
+├── README_Fr.md                      ← French version of the README
 ├── code/
-│   ├── HelloWorld_AI_Agent.ipynb    ← First version (pure Python + OpenAI API)
-│   └── AI_Agent_Langchain.ipynb     ← Modular LangChain version
+│   ├── HelloWorld_AI_Agent.ipynb     ← First version (pure Python + OpenAI API)
+│   ├── AI_Agent_Langchain.ipynb      ← Modular LangChain version
+│   └── System_instruction.txt        ← Hardened system prompt (XML spec, rules, few-shots)
 └── screenshot/
-    └── demo.gif          ← Animated demo: folder creation + file creation via prompt
+    └── demo.gif                      ← Animated demo: folder creation + file write via prompt
+
 ```
 
 ---
